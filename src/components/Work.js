@@ -11,7 +11,7 @@ const Work = (props) => {
             <div className="card-body">
                 <h5 className="card-title pt-3">{name}</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p className='text-secondary fw-bold'>{time} min</p>
+                <p className='text-secondary fw-bold'>Time requred: {time} min</p>
                 <button onClick={()=> handleBtn(time)} className="btn-prime">Go somewhere</button>
             </div>
             </div>

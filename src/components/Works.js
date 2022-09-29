@@ -19,7 +19,7 @@ const Works = () => {
     return (
         <div className='works'>
             <div>
-                <h3 className='my-5'>Select today’s practice</h3>
+                <h4 className='my-5' style={{color: "var(--primary-color)"}}>Select today’s practice</h4>
                 <div className='works-container'>
                 {
                     works.map(work => <Work key={work.id} works={work} handleBtn={handleWorkBtn}></Work>)

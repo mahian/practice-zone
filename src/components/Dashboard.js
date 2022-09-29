@@ -23,6 +23,18 @@ const Dashboard = (props) => {
                     <p className='m-0 fw-bold'>Typing</p>
                     <p className='m-0 fw-bold'>60/WPM</p>
                 </div>
+                <div className='d-flex justify-content-between mt-3'>
+                    <p className='m-0 fw-bold'>Programming</p>
+                    <p className='m-0 fw-bold'>50%</p>
+                </div>
+                <div className='d-flex justify-content-between mt-3'>
+                    <p className='m-0 fw-bold'>Typing</p>
+                    <p className='m-0 fw-bold'>60/WPM</p>
+                </div>
+                <div className='d-flex justify-content-between mt-3'>
+                    <p className='m-0 fw-bold'>Typing</p>
+                    <p className='m-0 fw-bold'>60/WPM</p>
+                </div>
             </div>
             <h4 className='py-2 mt-3'>add a break</h4>
             <div className='d-flex flex-wrap bg-light p-2 rounded'>

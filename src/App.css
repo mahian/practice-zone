@@ -34,3 +34,24 @@
     background: #0fd644;
     color: #e3ffea;
 }
+.blogs{
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .works-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 800px) {
+    .works{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .works-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
