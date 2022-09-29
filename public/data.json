@@ -1,44 +1,44 @@
 [
     {
       "id": 0,
-      "name": "javascript",
-      "time": "30",
+      "name": "Programming",
+      "time": 45,
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
-      "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
+      "img": "assets/programming.jpg"
     },
     {
       "id": 1,
-      "name": "css",
-      "time": "45",
+      "name": "Math Problems",
+      "time": 30,
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
-      "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
+      "img": "assets/math.jpg"
     },
     {
       "id": 2,
-      "name": "python",
-      "time": "25",
+      "name": "Graphic design",
+      "time": 30,
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
-      "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
+      "img": "assets/graphic-design.jpg"
     },
     {
       "id": 3,
-      "name": "c++",
-      "time": "60",
+      "name": "Problem solving",
+      "time": 15,
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
-      "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
+      "img": "assets/problem-solving.jpg"
     },
     {
       "id": 4,
-      "name": "data stracture",
-      "time": "10",
+      "name": "Typing Practice",
+      "time": 10,
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
-      "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
+      "img": "assets/typing.jpg"
     },
     {
       "id": 5,
-      "name": "php",
-      "time": "15",
+      "name": "Read Book",
+      "time": 15,
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
-      "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
+      "img": "assets/read-book.jpg"
     }
 ]

@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Dashboard = (props) => {
+    const times = [10, 15, 30, 45, 60];
+    const [breakTime, setBreakTtime] = useState(0)
+    const handleBreakBtn = time =>{
+        setBreakTtime(time)
+    }
     return (
         <div className='p-4'>
             <div className='d-flex'>
@@ -26,19 +31,18 @@ const Dashboard = (props) => {
             </div>
             <h4 className='py-2'>add a break</h4>
             <div className='d-flex justify-content-between bg-light p-4 rounded'>
-                <button className='break-button'>10s</button>
-                <button className='break-button'>10s</button>
-                <button className='break-button'>10s</button>
-                <button className='break-button'>10s</button>
+                {
+                    times.map(time => <button className='break-button' onClick={()=> handleBreakBtn(time)}>{time}</button>)
+                }
             </div>
             <h4 className='py-2'>Practice details</h4>
             <div className='d-flex justify-content-between bg-light p-4 rounded'>
                 <p>practice time</p>
-                <span>{props.time}</span>
+                <span>{props.time}min</span>
             </div>
             <div className='d-flex justify-content-between bg-light p-4 rounded mt-2'>
                 <p>brake time</p>
-                <span>30min</span>
+                <span>{breakTime}</span>
             </div>
             <button className='btn btn-primary mt-3'>Activity completed</button>
         </div>

@@ -9,6 +9,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.work-img{
+    height: 170px;
+    object-fit: cover;
+}
 .profile-img{
     height: 50px;
     width: 50px;
