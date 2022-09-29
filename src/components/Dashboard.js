@@ -5,7 +5,9 @@ const Dashboard = (props) => {
     const [breakTime, setBreakTtime] = useState(0)
     const handleBreakBtn = time =>{
         setBreakTtime(time)
+        localStorage.setItem("break time", time);
     }
+    const breakTimeFromDb = localStorage.getItem("break time");
     return (
         <div className='p-4'>
             <div className='d-flex align-items-center'>
@@ -34,7 +36,7 @@ const Dashboard = (props) => {
             </div>
             <div className='d-flex justify-content-between bg-light p-4 rounded mt-2'>
                 <p className='m-0 fw-bold'>Breake time :</p>
-                <p className='m-0 fw-bold text-secondary'>{breakTime}min</p>
+                <p className='m-0 fw-bold text-secondary'>{breakTimeFromDb ? breakTimeFromDb : 0}min</p>
             </div>
             <button className='btn-prime mt-4 w-100 rounded'>Activity completed</button>
         </div>
