@@ -9,17 +9,21 @@ const Works = () => {
         .then(res => res.json())
         .then(data => setWorks(data))
     }, []);
+    const [time, setTtime] = useState(0)
+    const handleWorkBtn = time => {
+        setTtime(time);
+    };
     return (
         <div className='works'>
             <div>
                 <h3 className='my-3'>Age Select today’s practice</h3>
                 <div className='works-container'>
                 {
-                    works.map(work => <Work works={work}></Work>)
+                    works.map(work => <Work key={work.id} works={work} handleBtn={handleWorkBtn}></Work>)
                 }  
                 </div>
             </div>
-            <Dashboard></Dashboard>
+            <Dashboard time={time}></Dashboard>
         </div>
     );
 };

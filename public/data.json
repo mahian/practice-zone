@@ -9,35 +9,35 @@
     {
       "id": 1,
       "name": "css",
-      "time": "30",
+      "time": "45",
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
       "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
     },
     {
       "id": 2,
       "name": "python",
-      "time": "30",
+      "time": "25",
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
       "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
     },
     {
       "id": 3,
       "name": "c++",
-      "time": "30",
+      "time": "60",
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
       "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
     },
     {
       "id": 4,
       "name": "data stracture",
-      "time": "30",
+      "time": "10",
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
       "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
     },
     {
       "id": 5,
       "name": "php",
-      "time": "30",
+      "time": "15",
       "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti perferendis quidem temporibus cupiditate deserunt, in quisquam error tenetur dolorem praesentium animi id ut vero corrupti molestias, earum voluptatum. Similique!",
       "picture": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg"
     }

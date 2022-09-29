@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Dashboard = () => {
+const Dashboard = (props) => {
     return (
         <div className='p-4'>
             <div className='d-flex'>
@@ -34,10 +34,10 @@ const Dashboard = () => {
             <h4 className='py-2'>Practice details</h4>
             <div className='d-flex justify-content-between bg-light p-4 rounded'>
                 <p>practice time</p>
-                <span>30min</span>
+                <span>{props.time}</span>
             </div>
             <div className='d-flex justify-content-between bg-light p-4 rounded mt-2'>
-                <p>practice time</p>
+                <p>brake time</p>
                 <span>30min</span>
             </div>
             <button className='btn btn-primary mt-3'>Activity completed</button>

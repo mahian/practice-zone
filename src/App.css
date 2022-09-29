@@ -1,10 +1,13 @@
 .works{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    max-width: 1200px;
+    margin: auto;
 }
 .works-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 .profile-img{
     height: 50px;
