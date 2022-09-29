@@ -15,7 +15,7 @@ const Dashboard = (props) => {
                 <img className='profile-img' src='https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-6/295180433_1389599218214479_7405679272567519554_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3UEfOhgji9EAX_xtCjJ&_nc_ht=scontent.fjsr8-1.fna&oh=00_AT9BpmL7reqHuILI_64mUl2ROrqZdgYlJDhF4-L3KxpCkQ&oe=6339226F' alt="..."/>
                 <div className='ms-3'>
                     <h4 className='m-0'>Mahian ahmad</h4>
-                    <p className='m-0'>location here</p>
+                    <p className='m-0'>Web developer</p>
                 </div>
             </div>
             <div className='bg-prime text-white p-4 mt-4 rounded'>
