@@ -20,9 +20,14 @@
 }
 .break-button {
     border: none;
-    background: red;
-    color: white;
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
+    margin: 6px;
+    padding: 3px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: #fff1e0;
+    color: #ff5f5f;
+}
+.break-button:hover {
+    background: #ff5f5f;
+    color: #fff1e0;
 }
