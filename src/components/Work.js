@@ -5,14 +5,14 @@ const Work = (props) => {
     const {handleBtn} = props;
     
     return (
-        <div classNameName='work'>
-            <div className="card">
-            <img src={img} className="card-img-top img-fluid work-img" alt="..." />
+        <div className='work p-3'>
+            <div className="card border-0">
+            <img src={img} className="card-img-top img-fluid work-img rounded" alt="..." />
             <div className="card-body">
-                <h5 className="card-title">{name}</h5>
+                <h5 className="card-title pt-3">{name}</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p>{time}</p>
-                <button onClick={()=> handleBtn(time)} className="btn btn-primary">Go somewhere</button>
+                <p className='text-secondary fw-bold'>{time} min</p>
+                <button onClick={()=> handleBtn(time)} className="btn-prime">Go somewhere</button>
             </div>
             </div>
         </div>

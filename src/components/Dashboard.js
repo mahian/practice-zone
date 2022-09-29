@@ -32,11 +32,11 @@ const Dashboard = (props) => {
                 <p className='m-0 fw-bold'>practice time :</p>
                 <p className='m-0 fw-bold text-secondary'>{props.time}min</p>
             </div>
-            <div className='d-flex justify-content-between bg-light p-4 rounded'>
+            <div className='d-flex justify-content-between bg-light p-4 rounded mt-2'>
                 <p className='m-0 fw-bold'>Breake time :</p>
                 <p className='m-0 fw-bold text-secondary'>{breakTime}min</p>
             </div>
-            <button className='btn btn-primary mt-4 w-100 fw-bold'>Activity completed</button>
+            <button className='btn-prime mt-4 w-100 rounded'>Activity completed</button>
         </div>
     );
 };

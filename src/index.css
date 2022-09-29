@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 :root{
-  --primary-color: red;
+  --primary-color: #f9621a;
 }
 .bg-prime{
   background-color: var(--primary-color);
@@ -17,4 +17,10 @@ body {
   background-color: var(--primary-color);
   color: white;
   font-weight: bold;
+  border: none;
+  padding: 8px 20px;
+  transition: .2s;
+}
+.btn-prime:hover{
+  opacity: 0.9;
 }

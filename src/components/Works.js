@@ -16,7 +16,7 @@ const Works = () => {
     return (
         <div className='works'>
             <div>
-                <h3 className='my-3'>Age Select today’s practice</h3>
+                <h3 className='my-5'>Select today’s practice</h3>
                 <div className='works-container'>
                 {
                     works.map(work => <Work key={work.id} works={work} handleBtn={handleWorkBtn}></Work>)
