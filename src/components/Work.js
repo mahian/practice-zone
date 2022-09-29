@@ -5,8 +5,8 @@ const Work = (props) => {
     const {handleBtn} = props;
     
     return (
-        <div className='work p-3'>
-            <div className="card border-0">
+        <div className='work p-3 rounded bg-light'>
+            <div className="card border-0 bg-light">
             <img src={img} className="card-img-top img-fluid work-img rounded" alt="..." />
             <div className="card-body">
                 <h5 className="card-title pt-3">{name}</h5>

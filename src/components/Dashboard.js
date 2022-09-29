@@ -7,6 +7,7 @@ const Dashboard = (props) => {
         setBreakTtime(time)
         localStorage.setItem("break time", time);
     }
+    
     const breakTimeFromDb = localStorage.getItem("break time");
     return (
         <div className='p-4'>

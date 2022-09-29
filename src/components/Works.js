@@ -9,10 +9,13 @@ const Works = () => {
         .then(res => res.json())
         .then(data => setWorks(data))
     }, []);
-    const [time, setTtime] = useState(0)
+    const [WorkTime, setWorkTtime] = useState(0)
+
     const handleWorkBtn = time => {
-        setTtime(time);
+        setWorkTtime(WorkTime + time);
+        localStorage.setItem("Work time", WorkTime);
     };
+    const workTimeFromDb = localStorage.getItem("Work time");
     return (
         <div className='works'>
             <div>
@@ -23,7 +26,7 @@ const Works = () => {
                 }  
                 </div>
             </div>
-            <Dashboard time={time}></Dashboard>
+            <Dashboard time={workTimeFromDb}></Dashboard>
         </div>
     );
 };
